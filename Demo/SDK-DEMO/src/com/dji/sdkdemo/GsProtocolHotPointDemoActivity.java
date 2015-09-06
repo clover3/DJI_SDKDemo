@@ -92,9 +92,10 @@ public class GsProtocolHotPointDemoActivity extends DemoBaseActivity implements 
     private int radius;
     private int speed;
     private GroundStationHotPointInterestDirection direction;
-    
+    private GroundStationHotPointNavigationMode dirNavi;
+
     private boolean getHomePiontFlag = false;
-    
+
     private DjiGLSurfaceView mDjiGLSurfaceView;
     private DJIReceivedVideoDataCallBack mReceivedVideoDataCallBack = null;
     
@@ -141,6 +142,7 @@ public class GsProtocolHotPointDemoActivity extends DemoBaseActivity implements 
         speed = 5;
         stopUpdate = false;
         direction = GroundStationHotPointInterestDirection.South;
+        dirNavi = GroundStationHotPointNavigationMode.Backward_To_Hot_Point;
 
         setContentView(R.layout.activity_gs_protocol_hotpoint_demo);
         mDjiGLSurfaceView = (DjiGLSurfaceView)findViewById(R.id.DjiSurfaceView_gs);
@@ -367,7 +369,8 @@ public class GsProtocolHotPointDemoActivity extends DemoBaseActivity implements 
                 info.velocity = this.speed;
                 info.surroundDirection = GroundStationHotPointSurroundDirection.Anit_Clockwise;
                 info.interestDirection = direction;
-                info.navigationMode = GroundStationHotPointNavigationMode.Backward_To_Hot_Point;
+                info.navigationMode = dirNavi;
+
                 DJIDrone.getDjiGroundStation().startHotPoint(info, new DJIGroundStationTakeOffCallBack() {
 
                     @Override
@@ -458,7 +461,6 @@ public class GsProtocolHotPointDemoActivity extends DemoBaseActivity implements 
         {
             extraBundle = intent.getExtras();
             String str = extraBundle.getString("data");
-            Toast.makeText(this, str, Toast.LENGTH_SHORT).show();
             String[] astr = str.split(":");
             latitude = Double.parseDouble(astr[0]);
             longitude = Double.parseDouble(astr[1]);
@@ -466,16 +468,10 @@ public class GsProtocolHotPointDemoActivity extends DemoBaseActivity implements 
             speed = Integer.parseInt(astr[3]);
             radius = Integer.parseInt(astr[4]);
             int dir = Integer.parseInt(astr[5]);
+            int dir2 = Integer.parseInt(astr[6]);
             direction = GroundStationHotPointInterestDirection.find(dir);
+            dirNavi = GroundStationHotPointNavigationMode.find(dir2);
             stopUpdate = true;
-            Log.i("debug", "lat :"+ latitude);
-            Log.i("debug", "longi :"+ longitude);
-            Log.i("debug", "heigt :"+ height);
-            Log.i("debug", "speed :"+ speed);
-            Log.i("debug", "rad :"+ radius);
-            Log.i("debug", "direc :"+ direction);
-            Toast.makeText(this, "direct:"+direction,Toast.LENGTH_SHORT ).show();
-
         }
     }
 

@@ -31,6 +31,7 @@ import java.util.ArrayList;
 
 public class googlemap extends FragmentActivity implements GoogleMap.OnMapClickListener, OnMapReadyCallback{
     ArrayList<String> arraylist;
+    ArrayList<String> arraylistNavi;
     Bundle extra;
     Intent intent;
     private GoogleMap aMap;
@@ -40,6 +41,7 @@ public class googlemap extends FragmentActivity implements GoogleMap.OnMapClickL
     EditText editHeight;
     EditText editSpeed;
     Spinner spinnerDirection;
+    Spinner spinnerDirNavi;
     LatLng location;
     int speed;
     int height;
@@ -57,6 +59,17 @@ public class googlemap extends FragmentActivity implements GoogleMap.OnMapClickL
         editRadius = (EditText) findViewById(R.id.editRadius);
         editSpeed = (EditText) findViewById(R.id.editSpeed);
         spinnerDirection = (Spinner) findViewById(R.id.spinner);
+        spinnerDirNavi = (Spinner) findViewById(R.id.spinnerNavi);
+
+        arraylistNavi = new ArrayList<String>();
+        arraylistNavi.add("Auto");
+        arraylistNavi.add("Forward_To_Hot_Point");
+        arraylistNavi.add("Backward_To_Hot_Point");
+        arraylistNavi.add("Remote_Control");
+        arraylistNavi.add("Lock");
+        ArrayAdapter<String> adapter1 = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, arraylistNavi);
+        spinnerDirNavi.setPrompt("NaviDirection");
+        spinnerDirNavi.setAdapter(adapter1);
 
         arraylist = new ArrayList<String>();
         arraylist.add("North");
@@ -64,9 +77,8 @@ public class googlemap extends FragmentActivity implements GoogleMap.OnMapClickL
         arraylist.add("West");
         arraylist.add("East");
         arraylist.add("Nearest");
-
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, arraylist);
-        spinnerDirection.setPrompt("Direction");
+        spinnerDirection.setPrompt("MovDirection");
         spinnerDirection.setAdapter(adapter);
 
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
@@ -81,13 +93,15 @@ public class googlemap extends FragmentActivity implements GoogleMap.OnMapClickL
                 speed = Integer.parseInt(editSpeed.getText().toString());
                 radius = Integer.parseInt(editRadius.getText().toString());
                 long sel = spinnerDirection.getSelectedItemId();
+                long sel2 = spinnerDirNavi.getSelectedItemId();
 
                 String str = location.latitude + ":"
                         + location.longitude + ":"
                         + height + ":"
                         + speed + ":"
                         + radius + ":"
-                        + sel;
+                        + sel + ":"
+                        + sel2;
 
                 extra.putString("data", str);
                 intent.putExtras(extra);

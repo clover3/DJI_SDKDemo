@@ -194,16 +194,16 @@ public class MainActivity extends DemoBaseActivity
     
     private static final DemoInfo[] demos = {
         new DemoInfo(R.string.demo_title_preview,R.string.demo_desc_preview, PreviewDemoActivity.class),
-        new DemoInfo(R.string.demo_title_camera_protocol,R.string.demo_desc_camera_protocol, CameraProtocolDemoActivity.class),
+//        new DemoInfo(R.string.demo_title_camera_protocol,R.string.demo_desc_camera_protocol, CameraProtocolDemoActivity.class),
         new DemoInfo(R.string.demo_title_main_controller_protocol,R.string.demo_desc_main_controller_protocol, MainControllerDemoActivity.class),
-        new DemoInfo(R.string.demo_title_battery_protocol,R.string.demo_desc_battery_protocol, BatteryInfoDemoActivity.class),
+ //       new DemoInfo(R.string.demo_title_battery_protocol,R.string.demo_desc_battery_protocol, BatteryInfoDemoActivity.class),
         new DemoInfo(R.string.demo_title_gimbal_protocol,R.string.demo_desc_gimbal_protocol, GimbalDemoActivity.class),
-        new DemoInfo(R.string.demo_title_gs_protocol,R.string.demo_desc_gs_protocol, GsProtocolDemoActivity.class),
-        new DemoInfo(R.string.demo_title_gs_protocol_joystick,R.string.demo_desc_gs_protocol_joystick, GsProtocolJoystickDemoActivity.class),
+ //       new DemoInfo(R.string.demo_title_gs_protocol,R.string.demo_desc_gs_protocol, GsProtocolDemoActivity.class),
+ //       new DemoInfo(R.string.demo_title_gs_protocol_joystick,R.string.demo_desc_gs_protocol_joystick, GsProtocolJoystickDemoActivity.class),
         new DemoInfo(R.string.demo_title_gs_protocol_hotpoint,R.string.demo_title_gs_protocol_hotpoint, GsProtocolHotPointDemoActivity.class),
-        new DemoInfo(R.string.demo_title_remote_control_protocol,R.string.demo_desc_remote_control_protocol,RemoteControlDemoActivity.class),
-        new DemoInfo(R.string.demo_title_image_transmitter_protocol,R.string.demo_desc_image_transmitter_protocol,ImageTransmitterDemoActivity.class),
-//        new DemoInfo(R.string.demo_title_media_sync,R.string.demo_desc_media_sync, MediaSyncDemoActivity.class)
+//        new DemoInfo(R.string.demo_title_remote_control_protocol,R.string.demo_desc_remote_control_protocol,RemoteControlDemoActivity.class),
+//        new DemoInfo(R.string.demo_title_image_transmitter_protocol,R.string.demo_desc_image_transmitter_protocol,ImageTransmitterDemoActivity.class),
+        new DemoInfo(R.string.demo_title_media_sync,R.string.demo_desc_media_sync, MediaSyncDemoActivity.class)
     };
     
     private static final DemoInfo[] p2vDemos = {
