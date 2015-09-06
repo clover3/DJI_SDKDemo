@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\DJI-SDK-Android-V2.1.0.Lib\DJI-SDK-LIB\unspecified\jars\libs\mygson-2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f72fde05619ba1d6f9e58bc5ee80110bf4e1f650">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\mygson-2.0-15f9135bfe7487f1401ca07e8501eec34360ed93.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\classes-b378eb25b060252648f371b93f9c24f6d6cf58b0.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\classes-1c565b86765e452050b537348ac6031866617246.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\DJI-SDK-Android-V2.1.0.Lib\DJI-SDK-LIB\unspecified\jars\libs\pinyin4j-2.5.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="58b76ee1873cb1e917c0ebfe14e73330f83a5ec2">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\pinyin4j-2.5.0-a54e8f5592b8c9535bc6d18245cbc023a6cced6c.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\DJI-SDK-Android-V2.1.0.Lib\DJI-SDK-LIB\unspecified\jars\libs\bouncycastle.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a9efec0f26271cb2cfe90f181282424ae0329fc5">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\bouncycastle-7dfe73186e40d9fb636171210c704c6a6b6a0302.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\classes-ad1f1ee5ad334b451d6c67aa948301a4129b8e9c.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\classes-55f3dbb651af2173116525df0474a97ec7da342d.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\classes-75f6cc5e2c73141aa2a8c0d4680ec28b2f4b30e3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Clover\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-1968da520f03708189acb950079460280814970f.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\classes-959e53c37004c745dbbc579f15754cba62771c53.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\DJI-SDK-Android-V2.1.0.Lib\DJI-SDK-LIB\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="45f91bf7773c18cdc40f18caa8a1d4c587bd0a40">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\classes-62e5b848fe6b6d5f2e73e4c636b2577fc0d8cbf3.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2e24e5f1b11170163028277de63f709e42525db4">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\classes-1dbee9a88a39a05053ceb5389ab5653e341b941a.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\classes-afce50287399360bfcac9dbe6a1b8eb0077b21b7.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\classes-645bd19c95c4c735c9b62084c855a1090a90650a.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\classes-2bf688a957235cb2fe2a6f9f623e5e98a6d3f27e.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\classes-85c84994cd0f18b5d41913e8b62348c56d162421.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\classes-ab193d7fb5adc4c66da9c13cb779e96d410d192d.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-86b13f9d4a6295ce06fa907629904c3fdf6ced4f.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\classes-c6bceb8765562e2384b539d8391e325aa242c4e5.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\classes-00857b5cac1d414e4bab9c78630c1d35b5df6b18.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\DJI-SDK-Android-V2.1.0.Lib\DJI-SDK-LIB\unspecified\jars\libs\dji-sdk.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3487498bc8d9c89c090b4e5055a1003c5e3db682">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\dji-sdk-bdd2b48e40b8dbb5caf1f3f151736745f7c2a97a.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\classes-772ead7cade7e70a0650d3e24b5e8e7ce89746ab.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\DJI-SDK-Android-V2.1.0.Lib\DJI-SDK-LIB\unspecified\jars\libs\eventbus.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c385f09de6bebe13a4b9465d5937789314ba6372">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\eventbus-972c2552c6721844e7e1f65e952398516a15b03f.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-3d1200fee2201f32349bb6993f57b7339ce6a86b.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\classes-60787b6ba2c4c1e9e3ae2e65033cf2d9914dd3c9.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\classes-d3b4851f68e9cb55b911e87045863149bc85f170.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\classes-09734fa76a010ca84ba9325e77ddb400c7c9f503.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\classes-ef4b9160778a280ae113043ad30995f3cd3412ef.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\classes-6f0395aa3f45f1b7cd2bafd8f8ad327a22543cf1.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cb6883d96005bc85b3e868f204507ea5b4fa9bbf">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\android-support-v4-3ad60da972ee471d566c2b4ee7076ea1da29ea8d.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\classes-f9fab1c1b035bf5556a148401a965f6a0c5a33ea.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\classes-9d3378093b2b4a07338052f2a4c068c45f3d175f.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\classes-e882de0512456d564a2c0d1b6e6450eecad438b0.jar" />
+    </item>
+    <item
+        jar="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
+        <dex dex="C:\Work\DJI-SDK-Android-V2.1.0\Demo\SDK-DEMO\build\intermediates\pre-dexed\debug\classes-126ad90316089d169447a804b409fa48466dbce4.jar" />
+    </item>
+
+</items>
